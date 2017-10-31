@@ -56,10 +56,10 @@ func AccessToken(appid string, secret string) (string, error) {
 //存储token
 func SaveToken() {
 	fmt.Println("开始获取token")
-	token, err := AccessToken(appid, secret)
-	if err != nil {
-		fmt.Println(err)
-	}
+	//token, err := AccessToken(appid, secret)
+	//if err != nil {
+		//fmt.Println(err)
+	//}
 
 	db ,err := sql.Open("mysql", "root:123456@tcp(127.0.0.1:3306)/mysite?charset=utf8")
 
