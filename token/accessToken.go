@@ -67,12 +67,11 @@ func SaveToken() {
 		fmt.Println(err)
 	}
 
-	result, err := db.Exec("INSERT INTO accessToken (accessToken) VALUES (?)", token)
+	result, err := db.Query("SELECT * FROM accessToken WHERE id = 1")
+	fmt.Println(result)
 
 	if err != nil {
 		fmt.Println(err)
 	}
-	_ = result
-
 	db.Close()
 }
