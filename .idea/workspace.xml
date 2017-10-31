@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="01c66541-ef9d-48f0-843b-8b0b44d025aa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/token/accessToken.go" afterPath="$PROJECT_DIR$/token/accessToken.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,10 +29,10 @@
       <file leaf-file-name="accessToken.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/token/accessToken.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+            <state relative-caret-position="434">
+              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
               <folding>
-                <marker date="1509452455837" expanded="true" signature="1411:1449" ph="SELECT * FRO... accessToken" />
+                <marker date="1509452964600" expanded="true" signature="1411:1458" ph="UPDATE accessToken... " />
               </folding>
             </state>
           </provider>
@@ -254,10 +255,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/token/accessToken.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        <state relative-caret-position="434">
+          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
           <folding>
-            <marker date="1509452455837" expanded="true" signature="1411:1449" ph="SELECT * FRO... accessToken" />
+            <marker date="1509452964600" expanded="true" signature="1411:1458" ph="UPDATE accessToken... " />
           </folding>
         </state>
       </provider>
