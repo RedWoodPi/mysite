@@ -48,14 +48,14 @@ func AccessToken(appid string, secret string) (string, error) {
 		}
 		return atr.AccessToken, nil
 	}else{
-		fmt.Println("wrong")
+		fmt.Println("微信返回错误")
 		return "", nil
 	}
 }
 
 //存储token
 func SaveToken() {
-	fmt.Print("begining to get accesstoken")
+	fmt.Println("开始获取token")
 	token, err := AccessToken(appid, secret)
 	if err != nil {
 		fmt.Println(err)
