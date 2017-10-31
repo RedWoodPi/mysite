@@ -12,7 +12,7 @@ import (
 )
 
 const appid = "wxccc67a998a00e936"
-const secret = "rmE9eObzaupBLM5aQ8xkGYpCVsuFYZA6IhmG9IEQ7sE"
+const secret = "3b462fb341a585c17ae616712a72008b"
 
 
 //获取accessToken
